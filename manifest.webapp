@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "name": "Firefox OS Hackathon App",
+  "description": "My entry",
+  "icons": {
+    "16": "/img/icon-16.png",
+    "48": "/img/icon-48.png",
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Georg Nordhausen",
+    "url": "http://mozillalabs.com"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "orientation": "portrait,landscape-secondary",
+  "fullscreen": "true",
+  "locales": {
+    "de": {
+      "description": "Eine App für Firefox OS",
+      "developer": {
+        "url": "http://www.georg-nordhausen.de"
+      }
+    }
+    
+    }
+  },
+  "default_locale": "en"
+}
